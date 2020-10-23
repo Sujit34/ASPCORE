@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\ASP\\ASPCORECRUD\\ASPCORECRUD.csproj": {}
+    "H:\\ASPCORE\\ASPCORECRUD\\ASPCORECRUD.csproj": {}
   },
   "projects": {
-    "H:\\ASP\\ASPCORECRUD\\ASPCORECRUD.csproj": {
+    "H:\\ASPCORE\\ASPCORECRUD\\ASPCORECRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ASP\\ASPCORECRUD\\ASPCORECRUD.csproj",
+        "projectUniqueName": "H:\\ASPCORE\\ASPCORECRUD\\ASPCORECRUD.csproj",
         "projectName": "ASPCORECRUD",
-        "projectPath": "H:\\ASP\\ASPCORECRUD\\ASPCORECRUD.csproj",
+        "projectPath": "H:\\ASPCORE\\ASPCORECRUD\\ASPCORECRUD.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "H:\\ASP\\ASPCORECRUD\\obj\\",
+        "outputPath": "H:\\ASPCORE\\ASPCORECRUD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
