@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ASPCORECRUD.Models;
+using static ASPCORECRUD.Helper;
 
 namespace ASPCORECRUD.Controllers
 {
@@ -28,6 +29,7 @@ namespace ASPCORECRUD.Controllers
 
         // GET: Transaction/AddOrEdit
         // GET: Transaction/AddOrEdit/5
+        [NoDirectAccess]
         public async Task<IActionResult> AddOrEdit(int id=0)
         {
             if (id == 0)
@@ -69,7 +71,7 @@ namespace ASPCORECRUD.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("TransactionId,AccountNumber,BeneficiaryName,BankName,SWIFTCode,Amount,Date")] TransactionModel transactionModel)
+        public async Task<IActionResult> AddOrEdit(int id, [Bind("TransactionId,AccountNumber,BeneficiaryName,BankName,SWIFTCode,Amount,Date")] TransactionModel transactionModel)
         {
            
 
@@ -77,9 +79,10 @@ namespace ASPCORECRUD.Controllers
             {
                 if (id == 0)
                 {
+                    transactionModel.Date = DateTime.Now;
                     _context.Add(transactionModel);
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
+                    
                 }
                 else
                 {
@@ -106,23 +109,7 @@ namespace ASPCORECRUD.Controllers
             return Json(new { isValid = false, html = Helper.RenderRazorViewToString(this, "AddOrEdit", transactionModel) });
         }
 
-        // GET: Transaction/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var transactionModel = await _context.Transactions
-                .FirstOrDefaultAsync(m => m.TransactionId == id);
-            if (transactionModel == null)
-            {
-                return NotFound();
-            }
-
-            return View(transactionModel);
-        }
+        
 
         // POST: Transaction/Delete/5
         [HttpPost, ActionName("Delete")]
@@ -132,7 +119,7 @@ namespace ASPCORECRUD.Controllers
             var transactionModel = await _context.Transactions.FindAsync(id);
             _context.Transactions.Remove(transactionModel);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return Json(new {  html = Helper.RenderRazorViewToString(this, "_ViewAll", _context.Transactions.ToList()) });
         }
 
         private bool TransactionModelExists(int id)

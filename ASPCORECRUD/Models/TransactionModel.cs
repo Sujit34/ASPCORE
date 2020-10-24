@@ -39,6 +39,7 @@ namespace ASPCORECRUD.Models
         [Required(ErrorMessage = "This Field is Mendatory")]
         public int Amount { get; set; }
 
+        [DisplayFormat(DataFormatString ="{0:MM/dd/yyy}")]
         public DateTime Date { get; set; }
     }
 }
