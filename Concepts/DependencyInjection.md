@@ -255,3 +255,6 @@ Now if we look at the code, we only have dependency on the abstraction of the da
 Now, we can have different teams working on different layers. We can have one team working on the data access layer, one team working on the business layer and one team working on the UI.
 
 And then it comes to the benefits of maintainability and extensibility. If we want for example to create a new data access layer for SQL Server, we only have to implemlent the abstraction of the data access layer and inject the instance in the infrastructure.
+
+
+#### Source: Code Project
