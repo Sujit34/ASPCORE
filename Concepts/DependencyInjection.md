@@ -257,4 +257,10 @@ Now, we can have different teams working on different layers. We can have one te
 And then it comes to the benefits of maintainability and extensibility. If we want for example to create a new data access layer for SQL Server, we only have to implemlent the abstraction of the data access layer and inject the instance in the infrastructure.
 
 
+Inversion of Control(IoC) is a principle by which the control of objects is transferred to a container or framework. Dependency injection is a pattern through which IoC is implemented and the act of connecting objects with other objects or injecting objects into objects is done by container rather than by the object themselves.
+
+In Inversion of Control(IoC), instead of an application calling the framework – it is the framework that calls the components specified by the application. IoC is also known as dependency injection (DI).
+
+
+
 #### Source: Code Project
