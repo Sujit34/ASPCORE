@@ -41,6 +41,20 @@
  **Autofac IoC Container:** Thread Scope (based on lifetime scopes)                             
  **Description:** Autofac can enforce that objects bound to one thread will not satisfy the     
  dependencies of a component bound to another thread. While there is not a convenience      
- method for this, you can do it using lifetime scopes.                                      
+ method for this, you can do it using lifetime scopes.       
+
+
+
+######Container
+A container is a central place where all your registered dependencies live. It is the heart of your application as it has all the information required to create and manage instances of your classes.
+
+######Registration
+A registration adds a dependency definition to the container. There are many different registration options.
+
+######Module
+A module helps you structure the registration of your dependencies. You can group registrations into modules and register the modules to your container. Modules help to structure the code especially in bigger applications which are built with modularity in mind.
+
+######Resolve
+You can ask the container to create an instance of a specific type. The container resolves the dependencies, creates the instance and gives you a reference to the created object. 
 
 
