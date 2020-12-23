@@ -6,6 +6,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DIAutofac.Dependency;
+using Autofac;
 
 namespace DIAutofac.Controllers
 {
@@ -20,12 +22,12 @@ namespace DIAutofac.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        private readonly ITestService _testService;
+       
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, ITestService testService)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
-            _testService = testService;
+            
         }
 
         [HttpGet]
@@ -44,6 +46,8 @@ namespace DIAutofac.Controllers
         [HttpGet("TestList")]
         public ActionResult<List<TestModel>> GettestList()
         {
+            var container = DependencyRegister.Configure();
+            var _testService = container.Resolve<ITestService>();
             var model = _testService.GettestList();
             return Ok(model);
         }

@@ -8,11 +8,14 @@ using System.Threading.Tasks;
 namespace DIAutofac.Dependency
 {
     public class DependencyRegister : Module
-    {
-        protected override void Load(ContainerBuilder builder)
+    {      
+        public static IContainer Configure()
         {
-            //builder.RegisterType<TestService>().As<ITestService>().InstancePerLifetimeScope();
-            builder.RegisterType<TestService>().As<ITestService>().SingleInstance();
+            var builder = new ContainerBuilder();
+            builder.RegisterType<TestService>().As<ITestService>().InstancePerLifetimeScope();
+            return builder.Build();
         }
+
+        
     }
 }

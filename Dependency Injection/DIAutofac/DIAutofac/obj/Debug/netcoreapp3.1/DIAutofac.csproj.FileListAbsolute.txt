@@ -22,3 +22,27 @@ C:\Users\hp\source\repos\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.c
 C:\Users\hp\source\repos\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.dll
 C:\Users\hp\source\repos\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.pdb
 C:\Users\hp\source\repos\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.genruntimeconfig.cache
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\bin\Debug\netcoreapp3.1\appsettings.Development.json
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\bin\Debug\netcoreapp3.1\appsettings.json
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\bin\Debug\netcoreapp3.1\DIAutofac.exe
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\bin\Debug\netcoreapp3.1\DIAutofac.deps.json
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\bin\Debug\netcoreapp3.1\DIAutofac.runtimeconfig.json
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\bin\Debug\netcoreapp3.1\DIAutofac.runtimeconfig.dev.json
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\bin\Debug\netcoreapp3.1\DIAutofac.dll
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\bin\Debug\netcoreapp3.1\DIAutofac.pdb
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\bin\Debug\netcoreapp3.1\Autofac.dll
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.csprojAssemblyReference.cache
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.csproj.CoreCompileInputs.cache
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.MvcApplicationPartsAssemblyInfo.cache
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.AssemblyInfoInputs.cache
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.AssemblyInfo.cs
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.RazorTargetAssemblyInfo.cache
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.csproj.CopyComplete
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\staticwebassets\DIAutofac.StaticWebAssets.Manifest.cache
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\staticwebassets\DIAutofac.StaticWebAssets.xml
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.dll
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.pdb
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\DIAutofac.genruntimeconfig.cache
+G:\Sujit\Learning\DI Autofac\ASPCORE\Dependency Injection\DIAutofac\DIAutofac\obj\Debug\netcoreapp3.1\scopedcss\bundle\DIAutofac.styles.css
